@@ -1,3 +1,7 @@
+> 如果遇到前端异常，向 sentry 服务器提交错误异常的时候，遇到提交请求被浏览器的跨域规则拦截的问题，请将前端 SDK 降级到：5.30.0
+> "@sentry/browser": "5.30.0"
+> 原始帖子请参考：https://github.com/getsentry/sentry/issues/24637
+
 # Sentry
 
 How to setup Sentry.io (open source) server in Docker Compose
